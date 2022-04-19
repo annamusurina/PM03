@@ -2,5 +2,4 @@
 D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(46,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
 D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(63,33): warning C4244: =: преобразование "double" в "int", возможна потеря данных
 D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(71,19): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(100): warning C4715: TrolleybusStation::save: значение возвращается не при всех путях выполнения
   src.vcxproj -> D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\x64\Debug\src.exe

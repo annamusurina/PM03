@@ -75,7 +75,7 @@ public:
 		}
 		return 1;
 	}
-	int save(string name, int n) {// вводить данные в файл
+	void save(string name, int n) {// вводить данные в файл
 		ofstream fout(name);
 		if (fout)
 		{
@@ -106,6 +106,7 @@ int main()
 		cin >> N;
 		if (N < 0 || N == 0) {
 			cout << "Количество элементов было введено неверно. Введите повторно" << endl;
+			cin.clear();
 		}
 	} while (N < 0 || N == 0);
 
@@ -117,9 +118,19 @@ int main()
 		cout << "Введите номер маршрута: ";
 		cin >> n;
 		cout << "Введите количетсво остановок: ";
-		cin >> o;
+		do {
+			cin >> o;
+			if (o < 0 || o == 0) {
+				cout << "Количество остановок было введено неверно. Введите повторно" << endl;
+			}
+		} while (o < 0 || o == 0);
 		cout << "Введите время в пути в минутах: ";
-		cin >> t;
+		do {
+			cin >> t;
+			if (t < 0 || t == 0) {
+				cout << "Количество остановок было введено неверно. Введите повторно" << endl;
+			}
+		} while (t < 0 || t == 0);
 		P->add(n, o, t);
 	}
 	Route* Routes = P->one();
