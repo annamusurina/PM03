@@ -1,0 +1,3 @@
+﻿  src.cpp
+D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(68,42): error C2653: List: не является именем класса или пространства имен
+D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(68,31): error C3861: getInstance: идентификатор не найден
