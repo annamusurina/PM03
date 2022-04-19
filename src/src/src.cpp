@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 struct Route {
-	string number[10];
+	string number;
 	int ostanovki;
 	int time;
 	Route* next;
@@ -90,12 +90,10 @@ public:
 					current = current->next;
 				}
 				fout.close();
-				return 1;
 			}
 		}
 		else {
 			cout << "Ошибка с файлом" << endl;
-			return 0;
 		}
 	}
 };
@@ -109,7 +107,7 @@ int main()
 		if (N < 0 || N == 0) {
 			cout << "Количество элементов было введено неверно. Введите повторно" << endl;
 		}
-	} while (N > 0);
+	} while (N < 0 || N == 0);
 
 	TrolleybusStation* P = TrolleybusStation::getInstance();
 	
@@ -128,8 +126,7 @@ int main()
 	string fl;
 	cout << "Введите имя файла: ";
 	cin >> fl;
-	P->save(fl, N);
-	
+	P->save(fl, N);	
 
 	system("pause");
 	return 0;

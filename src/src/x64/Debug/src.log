@@ -1,31 +1,6 @@
 ﻿  src.cpp
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(43,18): error C2039: "price": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(44,1): error C2061: синтаксическая ошибка: идентификатор "Tour"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(45,11): error C2039: "napr": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(47,11): error C2039: "price": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(48,11): error C2039: "size": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(56,18): error C2039: "price": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(63,21): error C2039: "napr": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(65,21): error C2039: "price": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(66,21): error C2039: "size": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(71,1): error C2061: синтаксическая ошибка: идентификатор "Tour"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(72,7): error C2039: "napr": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(74,7): error C2039: "price": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(75,7): error C2039: "size": не является членом "Route".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(4): message : см. объявление "Route"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(117,13): error C2039: "number": не является членом "TrolleybusStation".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(10): message : см. объявление "TrolleybusStation"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(119,13): error C2039: "ostanovki": не является членом "TrolleybusStation".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(10): message : см. объявление "TrolleybusStation"
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(121,13): error C2039: "time": не является членом "TrolleybusStation".
-D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(10): message : см. объявление "TrolleybusStation"
+D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(46,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(63,33): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(71,19): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\src\src.cpp(100): warning C4715: TrolleybusStation::save: значение возвращается не при всех путях выполнения
+  src.vcxproj -> D:\Users\stu-pksp118\Desktop\Новая папка (2)\src\x64\Debug\src.exe
